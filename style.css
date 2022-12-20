@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Fredoka One;
+}
+body{
+    background-color: dodgerblue;
+}
+#game-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    color: #FAB201;
+    font-size: 80px;
+    -webkit-text-stroke: 5px white;
+    margin: 60px;
+}
+.flex{
+    display: flex;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: white;
+    box-shadow : 2px 2px rgb(190, 190, 190) ;
+    color: #FAB201;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+footer{
+    margin: 53px;
+    color: white;
+    font-size: 25px;
+    font-weight: 200;
+    cursor: pointer;
+}
+#button{
+    width: 90px;
+    height: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
