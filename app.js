@@ -25,8 +25,8 @@ function checker(){
             }
             if (count==3){
                 cond=false
-                window.alert('Player X wins')
-                rld()
+                setTimeout(function() { alert("Player X wins"); }, 100);
+                setTimeout(function() {rld()}, 150);
             }
         }
     }else if(click%2==0){
@@ -41,14 +41,13 @@ function checker(){
             }
             if (count==3){
                 cond=false
-                window.alert('Player O wins')
-                rld()
+                setTimeout(function() { alert("Player O wins"); }, 100);
+                setTimeout(function() {rld()}, 150);
             }
         }
     }if(click==9 && cond==true){
-        console.log('test')
-        window.alert('Tie')
-        rld()
+       setTimeout(function() { alert("Tie"); }, 100);
+       setTimeout(function() {rld()}, 150);
     }
 }
 let button=document.getElementById('button')
@@ -61,7 +60,6 @@ function inputSelector(box,click){
     }else{
         box.innerHTML='O'
     }
-    console.log(click)
     checker()
 }
 
